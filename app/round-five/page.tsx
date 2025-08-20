@@ -20,26 +20,46 @@ export default function RoundFive() {
 
         <p><strong>Type:</strong> Multi-layer Encoding (CyberChef / Manual decode)</p>
         <p><strong>Theme:</strong> Stripping away distortion to reveal the truth</p>
-        <p><strong>Difficulty:</strong> 🟠 Medium-Hard</p>
+        <p><strong>Difficulty:</strong> 🟠 Easy - Medium</p>
 
-        <p className="text-left leading-relaxed">
+        <p className="text-left leading-relaxed text-white/70">
           The Front Man transmits the final key, but his signal is buried beneath layers of distortion.<br />
           The terminal shows a trail of sanity stripped away — layer by layer.<br />
           Somewhere deep within, one clear voice remains: <span className="text-yellow-300">the flag</span>.
         </p>
 
-        <p className="italic text-yellow-300">
+        <p className="italic text-red-500">
           “Every mask has cracks. Every signal has silence in between the noise.”
         </p>
 
         {/* DOWNLOAD OR LINK TO CHALLENGE */}
         <div className="bg-gray-900 border border-green-700 p-4 rounded">
           <a
-            href="/noise-layer.bin" // <-- replace with actual challenge file
+            href="/frontman.wav" 
             download
             className="text-white hover:underline"
           >
-            🔊 Download the encoded file: <strong>noise-layer.bin</strong>
+            🔊 Download the audio file: <strong>frontman's transmission</strong>
+          </a>
+        </div>
+
+        <p className="text-left leading-relaxed">
+         Back in the Control Room, the silence heavies, as the pink soilders find thier secrets slipping away<br />
+        Player 067: Kang Sae-byeok, she slipped away with thier secret, recorded the SIGNAL.<span className="text-yellow-300">the flag</span>.
+        </p>
+
+        <p className="italic text-red-500">
+          “It has to be recovered, she said before dying...”
+        </p>
+
+
+        <div className="bg-gray-900 border border-green-700 p-4 rounded">
+          <a
+            href="/transmission.pcap" 
+            download
+            className="text-white hover:underline"
+          >
+            🔊 Download the traffic file: <strong>Players 067 recorded signal</strong>
           </a>
         </div>
 
