@@ -12,7 +12,7 @@ const segments = [
   { text: ' in ????()\n', color: 'text-green-400' },
   { text: 'Type: ', color: 'text-green-400' },
   { text: 'System Exploitation\n', color: 'text-red-400' },
-  { text: 'Difficulty: 🟥🟥🟥🟥🟥\n', color: 'text-red-500' },
+  { text: 'Difficulty: Medium\n', color: 'text-red-500' },
   { text: 'Access: Remote (ask the recruiters for creds)\n\n', color: 'text-green-400' },
   { text: 'THE GAME FILTERS, NOT RECRUITS.\n', color: 'text-yellow-300' },
   { text: 'You are not welcomed. You are not wanted.\n', color: 'text-white' },
