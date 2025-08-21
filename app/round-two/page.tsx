@@ -49,7 +49,7 @@ export default function EchoImage() {
         </p>
 
         <a
-          href="https://yourctfd.com/challenges#Protocol-ECHO-IMAGE"
+          href="https://ctfflags.upsurge2k25.tech/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded"

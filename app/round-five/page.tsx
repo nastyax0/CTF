@@ -64,7 +64,7 @@ export default function RoundFive() {
         </div>
 
         <a
-          href="https://yourctfd.com/challenges#Protocol-NOISELAYER"
+          href="https://ctfflags.upsurge2k25.tech/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded"

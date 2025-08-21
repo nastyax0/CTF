@@ -13,14 +13,13 @@ const segments = [
   { text: 'Type: ', color: 'text-green-400' },
   { text: 'System Exploitation\n', color: 'text-red-400' },
   { text: 'Difficulty: 🟥🟥🟥🟥🟥\n', color: 'text-red-500' },
-  { text: 'Access: SSH (no creds; nmap the signal)\n\n', color: 'text-green-400' },
+  { text: 'Access: Remote (ask the recruiters for creds)\n\n', color: 'text-green-400' },
   { text: 'THE GAME FILTERS, NOT RECRUITS.\n', color: 'text-yellow-300' },
   { text: 'You are not welcomed. You are not wanted.\n', color: 'text-white' },
   { text: 'You made it here because the system failed to stop you.\n', color: 'text-white' },
   { text: 'Now, the Front Man wants to see why.\n\n', color: 'text-white' },
   { text: 'Signal Source: UNKNOWN\n', color: 'text-cyan-400' },
   { text: 'A live SSH server has been found.\n', color: 'text-white' },
-  { text: 'No username. No password.\n\n', color: 'text-white' },
   { text: 'One open port.\n\n', color: 'text-pink-300' },
   { text: 'The system responds if and only if you scan correctly.', color: 'text-green-400' }
 ]
@@ -79,7 +78,7 @@ export default function RoundSix() {
 
         <div className="flex gap-3 mt-3">
           <a
-            href="https://yourctfd.com/challenges#FINAL-CONFRONT-THE-FRONT-MAN"
+            href="https://ctfflags.upsurge2k25.tech/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-700 hover:bg-green-800 text-white px-5 py-2 rounded"
@@ -96,7 +95,7 @@ export default function RoundSix() {
         </div>
 
         <footer className="text-xs text-gray-600 mt-4 mb-10">
-          Tip: For nmap style hints, use service/version detection and slow, respectful timing. Example (CTF only): <code>nmap -sV --version-all &lt;host&gt;</code>
+          Tip: For network hints, use service/version detection and slow, respectful timing. Example (CTF only): <code>ssh -sV --version-all &lt;host&gt;</code>
         </footer>
       </motion.div>
     </main>

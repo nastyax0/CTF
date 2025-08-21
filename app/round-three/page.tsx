@@ -83,7 +83,7 @@ export default function RoundFour() {
 
         {/* Submit button */}
         <a
-          href="https://yourctfd.com/challenges#Protocol-HUNTER-TRACE"
+          href="https://ctfflags.upsurge2k25.tech/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-lg shadow-md hover:shadow-green-500/30 transition-all"
