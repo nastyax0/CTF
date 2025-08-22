@@ -15,7 +15,7 @@ export default function EchoImage() {
 
         <p><strong>Type:</strong> Forensics — Image Steganography</p>
         <p><strong>Theme:</strong> Seeing What’s Hidden</p>
-        <p><strong>Difficulty:</strong> 🟡 Medium</p>
+        <p><strong>Difficulty:</strong> 🟡 Easy - Medium</p>
 
         <p className=" leading-relaxed text-left text-sm text-gray-400 mt-4">
           The terminal buzzes again. This time, it doesn’t show code — but a still image,<br />

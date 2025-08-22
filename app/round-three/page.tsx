@@ -16,10 +16,10 @@ export default function RoundFour() {
           animate={{ opacity: 1 }}
           className="space-y-4"
         >
-          <h1 className="text-xl text-red-500 mt-15">🧩 ROUND 3 — “The Voice Below”</h1>
-          <p><strong>Type:</strong> Web — Base64 Decoding</p>
+          <h1 className="text-xl text-red-500 mt-15">🧩 ROUND 3 — “The Hunter Trace”</h1>
+          <p><strong>Type:</strong> OSINT — Open Source Intelligence</p>
           <p><strong>Difficulty:</strong> 🟢 Easy</p>
-          <p><strong>Skill Tested:</strong> Recognizing and decoding encoded text</p>
+          <p><strong>Skill Tested:</strong> Google Dorking </p>
         </motion.div>
 
         {/* Lore */}
